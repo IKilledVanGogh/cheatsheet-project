@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&family=Roboto:wght@300;500&display=swap');
+body {
+    font-family: 'Lato', 'Monsterrat', 'Roboto';
+    margin: 65px 25px 65px 65px;
+    background-image: url(./resources/background-3.jpg);
+}
+
+
+/*navigation-start*/
+
+.navigation {
+    font-weight: bold;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+}
+
+.navigation ul {
+    width: max-content;
+    height: max-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+.navigation li,
+a {
+    display: inline;
+    padding-right: 10px;
+    border-style: inherit;
+    border-radius: 40px;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 20px 25px;
+    font-size: 28px;
+}
+
+.navigation a:hover {
+    border: 5px solid teal;
+}
+
+.navigation a:link,
+a:active,
+a:visited {
+    color: whitesmoke;
+}
+
+
+/*navigation-end*/
+
+
+/*main-start*/
+
+h1 {
+    background-image: url(./resources/background-2.jpg);
+    font-family: inherit;
+    font-size: 48px;
+    font-weight: bold;
+    color: whitesmoke;
+    width: 95%;
+    padding: 50px 0px 50px 25px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    font-family: inherit;
+    font-size: 28px;
+    padding: 25px 0px 25px 0px;
+    letter-spacing: 1px;
+    color: darkslategray;
+}
+
+img {
+    height: 36px;
+    width: 36px;
+    vertical-align: middle;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid darkslategray;
+    padding: 10px;
+    max-width: 750px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+th {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+th:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+td:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+footer {
+    margin: 100px 10px 50px 10px;
+    padding: 25px 0px 25px 0px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: teal;
+    padding-right: 5px;
+}
+
+
+/*main-end*/
